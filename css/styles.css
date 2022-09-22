@@ -10,15 +10,15 @@ h2 {
 }
 
 p {
-  margin-bottom: 390px;
+  margin-bottom: 350px;
 }
 
-.description {
+footer {
   text-align: center;
-  color: pink;
-  font-weight: bold;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+footer a {
+  margin: 0 10px; 
 }
 
 a { 
@@ -28,19 +28,21 @@ a {
   font-weight: bold;
 }
 
-.contact-link,
-.photo-link,
-.homepage-link {
-  display: block;
+.description {
   text-align: center;
+  color: pink;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 #french-croissant-img {
-  max-width: 100%;
-  width: 50%;
   display: block;
   margin: 0 auto;
+  margin-bottom: 25px;
+  max-width: 100%;
+  border-radius: 50px;
+  display: block;
+  width: 50%;
   margin-top: 2%;
 }
 
